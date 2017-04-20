@@ -1,0 +1,42 @@
+@import url("reset.css");
+@import url("https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.common-fiori.min.css");
+@import url("https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.fiori.min.css");
+@import url("https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.fiori.mobile.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.2.6/gridstack.min.css");
+
+
+html { 
+    font-size: 14px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    background: black;
+}
+
+.grid-stack {
+    background: #222;
+    margin: 2em;
+}
+
+.grid-stack-item-content {
+    color: #2c3e50;
+    text-align: center;
+    background-color: #333;
+}
+
+.grid-stack-item-content .title{
+    color: #4771A5;
+    display: block;
+    text-align: left;
+    font-size: 1.4em;
+    padding: 0.5em;       
+}
+
+.k-button{
+    color: #87CEEB;
+    background-color: #3F4354;
+    width: 100%;
+}
+
+.k-button:hover{
+    color: #87CEEB;
+    background-color: #3F4354;
+}

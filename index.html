@@ -1,0 +1,238 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="src/css/index.css" />
+
+  <script src="https://kendo.cdn.telerik.com/2017.1.223/js/jquery.min.js"></script>
+  <script src="https://kendo.cdn.telerik.com/2017.1.223/js/kendo.all.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.2.6/gridstack.min.js'></script>
+  <script src="src/script/index.js"></script>
+</head>
+
+<body>
+  <div class="grid-stack">
+    <!-- Log -->
+    <div class="grid-stack-item" data-gs-x="0" data-gs-y="0" data-gs-width="5" data-gs-height="4">
+      <div class="grid-stack-item-content">
+        <span class="title">Log</span>
+        <table class="k-grid">
+          <thead>
+            <tr>
+              <th data-field="make">Car Make</th>
+              <th data-field="model">Car Model</th>
+              <th data-field="year">Year</th>
+              <th data-field="category">Category</th>
+              <th data-field="airconditioner">Air Conditioner</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Volvo</td>
+              <td>S60</td>
+              <td>2010</td>
+              <td>Saloon</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Audi</td>
+              <td>A4</td>
+              <td>2002</td>
+              <td>Saloon</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>BMW</td>
+              <td>535d</td>
+              <td>2006</td>
+              <td>Saloon</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>BMW</td>
+              <td>320d</td>
+              <td>2006</td>
+              <td>Saloon</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>VW</td>
+              <td>Passat</td>
+              <td>2007</td>
+              <td>Saloon</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>VW</td>
+              <td>Passat</td>
+              <td>2008</td>
+              <td>Saloon</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Peugeot</td>
+              <td>407</td>
+              <td>2006</td>
+              <td>Saloon</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Honda</td>
+              <td>Accord</td>
+              <td>2008</td>
+              <td>Saloon</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Alfa Romeo</td>
+              <td>159</td>
+              <td>2008</td>
+              <td>Saloon</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Nissan</td>
+              <td>Almera</td>
+              <td>2001</td>
+              <td>Saloon</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Mitsubishi</td>
+              <td>Lancer</td>
+              <td>2008</td>
+              <td>Saloon</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Opel</td>
+              <td>Vectra</td>
+              <td>2008</td>
+              <td>Saloon</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Toyota</td>
+              <td>Avensis</td>
+              <td>2006</td>
+              <td>Saloon</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Toyota</td>
+              <td>Avensis</td>
+              <td>2008</td>
+              <td>Saloon</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Toyota</td>
+              <td>Avensis</td>
+              <td>2008</td>
+              <td>Saloon</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Audi</td>
+              <td>Q7</td>
+              <td>2007</td>
+              <td>SUV</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Hyundai</td>
+              <td>Santa Fe</td>
+              <td>2012</td>
+              <td>SUV</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Hyundai</td>
+              <td>Santa Fe</td>
+              <td>2013</td>
+              <td>SUV</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Nissan</td>
+              <td>Qashqai</td>
+              <td>2007</td>
+              <td>SUV</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Mercedez</td>
+              <td>B Class</td>
+              <td>2007</td>
+              <td>Hatchback</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Lancia</td>
+              <td>Ypsilon</td>
+              <td>2006</td>
+              <td>Hatchback</td>
+              <td>Yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- Periodic Tasks -->
+    <div class="grid-stack-item" data-gs-x="5" data-gs-y="0" data-gs-width="4" data-gs-height="4">
+      <div class="grid-stack-item-content">
+        <span class="title">Periodic Tasks</span>
+      </div>
+    </div>
+    <!-- Production -->
+    <div class="grid-stack-item" data-gs-x="0" data-gs-y="4" data-gs-width="2" data-gs-height="3">
+      <div class="grid-stack-item-content">
+        <span class="title">Production</span>
+      </div>
+    </div>
+    <!-- Safety -->
+    <div class="grid-stack-item" data-gs-x="2" data-gs-y="4" data-gs-width="2" data-gs-height="3">
+      <div class="grid-stack-item-content">
+        <span class="title">Safety</span>
+      </div>
+    </div>
+    <!-- Notes -->
+    <div class="grid-stack-item" data-gs-x="4" data-gs-y="4" data-gs-width="3" data-gs-height="5">
+      <div class="grid-stack-item-content">
+        <span class="title">Notes</span>
+      </div>
+    </div>
+    <!-- Activity Feed -->
+    <div class="grid-stack-item" data-gs-x="7" data-gs-y="4" data-gs-width="2" data-gs-height="5">
+      <div class="grid-stack-item-content">
+        <span class="title">Activity Feed</span>
+      </div>
+    </div>
+    <!-- Quality -->
+    <div class="grid-stack-item" data-gs-x="0" data-gs-y="10" data-gs-width="2" data-gs-height="2">
+      <div class="grid-stack-item-content">
+        <span class="title">Quality</span>
+      </div>
+    </div>
+    <!-- Shift Report -->
+    <div class="grid-stack-item" data-gs-x="2" data-gs-y="10" data-gs-width="2" data-gs-height="1">
+      <div class="grid-stack-item-content">
+        <span class="title">Shift Report</span>
+        <button class="k-button">Create New Report</button>
+      </div>
+    </div>
+    <!-- Deviation Log -->
+    <div class="grid-stack-item" data-gs-x="2" data-gs-y="11" data-gs-width="2" data-gs-height="1">
+      <div class="grid-stack-item-content">
+        <span class="title">Deviation Log</span>
+        <button class="k-button">Create Entry</button>
+      </div>
+    </div>
+  </div>
+</body>
+<html>
