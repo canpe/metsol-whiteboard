@@ -20,14 +20,22 @@ html {
     color: #2c3e50;
     text-align: center;
     background-color: #333;
+    overflow: hidden !important;
+    position: relative;
 }
 
-.grid-stack-item-content .title{
+.grid-stack-item-content .widget-title{
     color: #4771A5;
-    display: block;
     text-align: left;
     font-size: 1.4em;
     padding: 0.5em;       
+    height: 1em;
+}
+
+.grid-stack-item-content .widget-body{
+    height: calc(100% - 4.5em);
+    margin: 0em 1em;
+    overflow-y: auto;
 }
 
 .k-button{
@@ -39,4 +47,8 @@ html {
 .k-button:hover{
     color: #87CEEB;
     background-color: #3F4354;
+}
+
+.k-grid-content{
+overflow-y: visible;
 }

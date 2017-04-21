@@ -5,5 +5,5 @@ $(function () {
     };
     $('.grid-stack').gridstack(options);
     $('.k-button').kendoButton();
-    $('.k-grid').kendoGrid({height: 300,});
+    $('.k-grid').kendoGrid();
 });
