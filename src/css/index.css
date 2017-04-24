@@ -2,8 +2,9 @@
 @import url("https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.common-fiori.min.css");
 @import url("https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.fiori.min.css");
 @import url("https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.fiori.mobile.min.css");
-@import url("gridstack.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.2.6/gridstack.min.css");
 @import url("gridstack-extra.min.css");
+@import url("font-style.css");
 
 
 html { 
@@ -32,6 +33,12 @@ html {
     height: 1em;
 }
 
+.grid-stack-item-content .widget-icon{
+    float: right;
+    cursor: pointer;
+    margin-left: 0.5em;
+}
+
 .grid-stack-item-content .widget-body{
     height: calc(100% - 4.5em);
     margin: 0em 1em;
@@ -50,5 +57,29 @@ html {
 }
 
 .k-grid-content{
-overflow-y: visible;
+    overflow-y: visible;
+}
+
+.k-window-titlebar ,
+.k-window-content{
+    background-color: #333 !important;
+}
+
+.k-window-titlebar {
+    border-width: 0px;
+}
+
+.k-window-action.k-link{
+    margin-right: 0.5em;
+}
+
+.k-window-action.k-link:hover{
+    background-color: #333 !important;
+    border-width: 0px; 
+}
+
+.k-window-titlebar .k-icon.k-i-close{
+    color:#FFF;
+    font-size: 1.5em;
+    margin-right: 1em;
 }
